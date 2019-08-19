@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(pigeon_data)
        if !output_hash[pigeon_name][key]
          output_hash[pigeon_name][key] = []
        end 
-       output_hash[pigeon_name][key] << 
+       output_hash[pigeon_name][key] << pushed_value.to_s
      end 
    end 
  end 
