@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(pigeon_data)
  pigeon_data.each do |key, value|
    value.each do |pushed_value, names_array|
      names_array.each do |pigeon_name|
-       
+       pigeon_name
      end 
    end 
  end 
