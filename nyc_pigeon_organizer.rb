@@ -6,7 +6,10 @@ def nyc_pigeon_organizer(pigeon_data)
        if !output_hash[pigeon_name]
          output_hash[pigeon_name] = {}
        end 
-       if output_hash[pigeon_name]
+       if !output_hash[pigeon_name][key]
+         output_hash[pigeon_name][key] = []
+       end 
+       output_hash[pigeon_name][key] << 
      end 
    end 
  end 
